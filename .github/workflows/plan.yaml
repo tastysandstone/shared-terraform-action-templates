@@ -15,7 +15,7 @@ env:
   TF_WORKSPACE: ${{ inputs.tf_workspace }}
 jobs:
   plan:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v2
